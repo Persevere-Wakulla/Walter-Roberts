@@ -1,0 +1,35 @@
+// shift alt i
+// shift end
+const students = [
+  'Bonner, Andre',
+  'Lewis, Damian',
+  'Gordon, Vincent',
+  'Fountain, Koufax',
+  'Jeremy Heard',
+  'Higgins, Sean',
+  'Formman, Brian',
+  'Mezler, Joshua',
+  'Lewis, Brian',
+  'Loveland, Bryan',
+  'Lopez, Jason',
+  'Coon, Matthew',
+  'Ford',
+  'Chamblin, Gary',
+  'Campbell, Nathan',
+  'Tollinchi, Christopher',
+  'Flowers, Booker',
+  'Roberts, Walter',
+  'Bolden, Johntel',
+  'Chapman, Charlie',
+  
+];
+// I want to be able to create a pairing of students for all students in the classroom
+// How can we do this one time?
+// Create a function that uses an arr to create the pairings
+// Have all the names students (arr)
+// Divide the students evenly
+  // A Select a student randomly
+  // B Select another student (what if that student is picked twice)
+  // store the pairing
+// How can we do this process for the whole class?
+// Find a way to repeat steps from above

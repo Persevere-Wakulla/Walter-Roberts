@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+                <!-- displays site properly based on user's device -->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <!-- <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png"> -->
+                <link rel="stylesheet" href="./rock-paper-scissors.css">
+                    <title>Frontend Mentor | Day Seven JS | Rock, Paper, Scissors</title>
+                        <style>
+                            .attribution { font-size: 11px; text-align: center; }
+                            .attribution a { color: hsl(228, 45%, 44%); }
+                        </style>
+        </head>
+        <body>
+            <header id="topOfPage">
+                <div id="logo">
+                    <img src="./images/logo-bonus.svg" alt="Rock,Paper,Scissors" id="logoBonus">
+                </div>
+                <div id="score">
+                    <p>PLAYER</p>
+                    <p id="yScore"></p>
+                </div>
+                <div id="score">
+                    <p>COMPUTER</p>
+                    <p id="cScore"></p>
+                </div>
+            </header>
+            <main>
+                <div id="pentagon">
+                    <section>
+                        <button id="scissors" class="scissors"><img src="./images/icon-scissors.svg" width="40" height="48" alt="Scissors"></button>
+                    </section>
+                <section>
+                    <button id="paper" class="paper"><img src="./images/icon-paper.svg" width="40" height="48" alt="Paper"></button>
+                </section>
+                <section>
+                    <button id="rock" class="rock"><img src="./images/icon-rock.svg" width="40" height="48" alt="Rock"></button>
+                </section>
+                <section>
+                    <button id="lizard" class="lizard"><img src="./images/icon-lizard.svg" width="40" height="48" alt="Lizard"></button>
+                </section>
+                <section>
+                    <button id="spock" class="spock"><img src="./images/icon-spock.svg" width="40" height="48" alt="Spock"></button>
+                </section>
+            </div>
+                <section id="playArea">
+                    <div id="you">YOU</div>
+                        <div id="player" class="player">
+                            <img src="#" alt="player" id="yPick">
+                        </div>
+                            <div id="winLose"></div>
+                                <div id="computer" class="player">COMPUTER</div>
+                                <div id="cpu">
+                                    <img src="#" alt="cpu" id="cPick">
+                                </div>
+                                        <button id="again">PLAY AGAIN</button>
+                </section>
+            </main>
+            <footer>
+                <a href="./images/image-rules-bonus.svg" id="rules"><button id="button">Rules</button></a>
+            </footer>
+
+            <div class="attribution">
+                Coded in Visual Studio Code by yours truly:<a href="#">Developer W. Roberts</a>.
+            </div>
+                <!-- <script src="project-omelette-recipe.js"></script> -->
+                <script src="./rock-paper-scissors.js"></script>
+        </body>
+</html>

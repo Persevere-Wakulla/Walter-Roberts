@@ -1,0 +1,14 @@
+body{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+/* #wrapper{
+    transition: all 2s;
+}
+#wrapper:hover{
+    rotate: 1 2 1 90deg;
+    rotate: x 0.25turn;
+} */

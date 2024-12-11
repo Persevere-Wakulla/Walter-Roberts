@@ -1,0 +1,64 @@
+body{
+    width: 98vw;
+    height: 98vh;
+    background-color: rgb(15, 15, 95);
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.titleBar{
+    border: 2px solid white;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 8vh 90vh;
+}
+.movTit{
+    border-bottom: 2px solid white;
+    color: white;
+    text-align: center;
+}
+#titles{
+    overflow-y: scroll;
+}
+#titles a{
+    margin-bottom: 1em;
+    color: white;
+    display: block;
+}
+.right{
+    display: grid;
+    grid-template-rows: 1fr 9fr 1fr;
+}
+.headCont{
+    text-align: center;
+    color: goldenrod;
+}
+.movie{
+    color: White;
+    text-align: center;
+}
+#actorList a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+#director a{
+    color: white;
+    margin-left: 1em;
+    display: inline-block;
+    text-decoration: none;
+}
+#buttonList{
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+.buttons{
+    /* margin-left: 1em; */
+    background-color: goldenrod;
+    color: rgb(15, 15, 95);
+    border: none;
+    border-radius: 15px;
+    padding: .5em 1.6em;
+}

@@ -1,0 +1,132 @@
+body {
+    background: url('./assets/background-stars.svg');
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-bottom: 1px solid gray;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+    margin-top: 1.75rem;
+    margin-right: 1rem;
+    list-style: none;
+}
+
+li a {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.image {
+    /* height: 400px;
+    width: 400px;
+    margin-top: 8rem; */
+    display: grid;
+    place-content: center;
+}
+
+.information-container {
+    text-align: center;
+    width: 30%;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+}
+
+button {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: transparent;
+    border: 1px solid gray;
+    color: white;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+    width: 75%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 4rem;
+    margin-left: 15rem;
+}
+
+.rotation {
+    border: 1px solid gray;
+    text-align: center;
+    color: #38384F;
+    width: 20rem;
+    padding: 1rem;
+}
+
+.revolution {
+    border: 1px solid gray;
+    text-align: center;
+    color: #38384F;
+    width: 20rem;
+    padding: 1rem;
+}
+
+.radius {
+    border: 1px solid gray;
+    text-align: center;
+    color: #38384F;
+    width: 20rem;
+    padding: 1rem;
+}
+
+.temperature {
+    border: 1px solid gray;
+    text-align: center;
+    color: #38384F;
+    width: 20rem;
+    padding: 1rem;
+}
+
+h2 {
+    font-size: xx-large;
+    color: #FFFFFF;
+}
+
+.picContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.surfacePic {
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    left: 25%;
+}
+
+.saturnPic {
+    width: 30%;
+    left: 35%;
+}

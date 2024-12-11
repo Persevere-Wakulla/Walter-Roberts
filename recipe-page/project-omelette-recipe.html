@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+                <!-- displays site properly based on user's device -->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+                <link rel="stylesheet" href="./project-omelette-recipe.css">
+                    <title>Frontend Mentor | Day Four JS | Simple Omelette Recipe Project</title>
+                        <style>
+                            .attribution { font-size: 11px; text-align: center; }
+                            .attribution a { color: hsl(228, 45%, 44%); }
+                        </style>
+        </head>
+        <body>
+            <div id="container">
+                    <!-- The Header is for the picture of the Omelette -->
+                <header id="topOfPage">
+                    <img src="./assets/images/image-omelette.jpeg" alt="Omelette" id="picture">
+                </header>
+                <main id="mainIdea">
+                    <!-- This Section is for the title of the Recipe -->
+                    <section id="simpleRecipe">
+                        <h1 id="recipe">Simple Omelette Recipe</h1>
+                            <p id="dish">An easy and quick dish, perfect for any meal. This
+                                classic omelette combines beaten eggs cooked to perfection,
+                                optionally filled with your choice of cheese, vegetables, or
+                                meats.</p>
+                    </section>
+                    <!-- This Section is for the Preparation time -->
+                    <section id="totalPreparationTime">
+                        <h3 class="prepare-time">Preparation time</h3>
+                            <ul id="durationMaking">
+                                <li><span class="Approximately">Total Time:</span>
+                                    <span id="duration" class="ten">Approximately 10 minutes</span></li>
+                                <li ><span class="Approximately">Preparation:</span>
+                                    <span id="preparation" class="ten">5 minutes</span></li>
+                                <li ><span class="Approximately">Cooking Time:</span>
+                                    <span id="cookingTime" class="ten">5 minutes</span></li>
+                            </ul>
+                    </section>
+                <!-- This Section is for the Ingredients and what it will need to make the meal -->
+                    <section id="allIngredients">
+                        <h2 id="Ingredients">Ingredients</h2>
+                            <ul id="fiveIngredients">
+                                <li id="mainIngredient">2-3 large eggs</li>
+                                <li id="salt">Salt, to taste</li>
+                                <li id="pepper">Pepper, to taste</li>
+                                <li id="butterOil">1 tablespoon of butter or oil</li>
+                                <li id="optionalFillings">Optional fillings: cheese, diced
+                                    vegetables, cooked meats, herbs</li>
+                            </ul>
+                    </section>
+                        <hr>
+                    <!-- This Section is for the Instructions and how to prepare it. -->
+                    <section id="instructionsAndPreperation">
+                        <h2 id="allInstructions">Instructions</h2>
+                            <ol id="yourSteps">
+                                <li><span id="stepOneOne" class="Approximately">Beat the eggs:</span>
+                                    <span id="stepOne" class="ten">In a bowl, beat the eggs with a pinch of
+                                    salt and pepper until they are well mixed. You can add a
+                                    tablespoon of water or milk for a fluffier texture.</span></li>
+                                <li><span id="stepOneTwo" class="Approximately">Heat the pan:</span>
+                                    <span id="stepTwo" class="ten">Place a non-stick frying pan over medium
+                                    heat and add butter or oil.</span></li>
+                                <li><span id="stepOneThree" class="Approximately">Cook the omelette:</span>
+                                    <span id="stepThree" class="ten">Once the butter is melted and
+                                    bubbling, pour in the eggs. Tilt the pan to ensure the eggs
+                                    evenly coat the surface.</span></li>
+                                <li><span id="stepOneFour" class="Approximately">Add fillings (optional):</span>
+                                    <span id="stepFour" class="ten">When the eggs begin to set at
+                                    the edges but are still slightly runny in the middle, sprinkle
+                                    your chosen fillings over one half of the omelette.</span></li>
+                                <li><span id="stepOneFive" class="Approximately">Fold and serve:</span>
+                                    <span id="stepFive" class="ten">As the omelette continues to cook,
+                                    carefully lift one edge and fold it over the fillings. Let it
+                                    cook for another minute, then slide it onto a plate.</span></li>
+                                <li><span id="stepOneSix" class="Approximately">Enjoy:</span><span id="stepEnjoy" class="ten">
+                                    Serve hot, with additional salt and pepper if needed.</span></li>
+                            </ol>
+                    </section>
+                </main>
+                    <hr>
+                    <!-- The Footer is for the Nutritional values of the meal. -->
+                <footer id="caloriesAndCarbs">
+                    <h2 id="nutritional">Nutrition</h2>
+                        <p id="nutritionalValues">The table below shows nutritional values per serving without the
+                            additional fillings.</p>
+                            <div id="nutrition">
+                                <p id="calories">Calories</p> 
+                                    <p id="totalCalories" class="values">277kcal</p>
+                                <hr>
+                                <p id="carbs">Carbs</p>
+                                <p id="totalCarbs" class="values">0g</p>
+                                <hr>
+                                <p id="protein">Protein</p>
+                                <p id="totalProtein" class="values">20g</p>
+                                <hr>
+                                <p id="fat">Fat</p>
+                                    <p id="totalFat" class="values">22g</p>
+                            </div>
+                </footer>
+                    <div class="attribution">
+                        Coded in Visual Studio Code by yours truly:<a href="#">Developer W. Roberts</a>.
+                    </div>
+                    <!-- <script src="project-omelette-recipe.js"></script> -->
+                <script src="./project-omelette-recipe.js"></script>
+            </div>
+        </body>
+</html>

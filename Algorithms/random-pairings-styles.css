@@ -1,0 +1,131 @@
+/* This Section is all of my Var for my page */
+:root {
+    /* This is the Primary colors of the page */
+    /* This is the Dark Mode Colors */
+    --main: hsl(300 100% 25%);
+    --hover: hsl(328, 100%, 54%);
+    --border: hsl(51, 95%, 45%);
+    /* On Hover */
+    --clr-hover:hsl(280, 96%, 32%);
+    /* the font color */
+    --h1: hsl(180, 100%, 97%);
+}
+/* This is the section that resets the whole page before I get started */
+*,
+* ::before,
+* ::after {
+box-sizing: border-box;
+}
+
+* {
+margin: 0;
+padding:0;
+}
+
+html,
+body {
+height: 100%;
+}
+
+body {
+line-height: 1.7;
+-webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+display: block;
+max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3 {
+line-height: 1;
+}
+
+#root,
+#__next {
+isolation: isolate;
+}
+
+body {
+    background-image: url(./images/dark-mode-castle.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: 0;
+  }
+
+main {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+h1 {
+    color: var(--h1);
+    font-size: 46px;
+}
+
+li {
+    text-align: center;
+    color: var(--h1);
+    line-height: 2rem;
+}
+
+button {
+    height: 4rem;
+    width: 14rem;
+    font-size: 24px;
+    border-style: none;
+    background-color: transparent;
+    color: var(--h1);
+}
+
+button:hover {
+    background-color: var(--clr-hover);
+    color: var(--clr-background);
+    cursor: pointer;
+    text-align: center;
+    border-style: none;
+}
+
+.attribution {
+    margin-top: 10rem;
+}
+
+.attribution a:hover {
+    color: crimson;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 48px auto;
+    transition: 300ms;
+  }
+
+  .grid:has(.left:hover) {
+    /* Hover styles */
+    grid-template-columns: 30% auto;
+    --left: 30%;
+  }

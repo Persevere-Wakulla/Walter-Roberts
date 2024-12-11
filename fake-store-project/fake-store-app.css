@@ -1,0 +1,85 @@
+:root {
+  --clr-body-background: gray;
+  --clr-main-background: darkviolet;
+  --clr-border-background: black;
+  --clr-product-title-words: ghostwhite;
+  --clr-category-words:rgba(4, 4, 248, 0.736);
+  --clr-description-words: honeydew;
+  --clr-price: lightcyan;
+  --clr-buttons: ;
+}
+
+.lightMode {
+  --clr-body-background:darkviolet;
+  --clr-main-background:gray;
+  --clr-border-background:ghostwhite;
+  --clr-title-words:black;
+  --clr-category-words:lightcyan;
+  --clr-description-words: honeydew;
+  --clr-price: rgba(4, 4, 248, 0.736);
+}
+
+body {
+  background-color: var(--clr-body-background);
+  background-image: url(./images/squareAvatar.jpg);
+  width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  background-color: var(--clr-main-background);
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+form {
+  margin: 0 auto;
+}
+
+input {
+  max-width: 100%;
+}
+
+
+.container {
+  border: 1rem solid var(--clr-border-background);
+}
+
+.product {
+  color: var(--clr-product-title-words);
+  overflow-wrap: break-word;
+  font-size: large;
+  margin: auto;
+}
+
+.price {
+  color: var(--clr-price);
+}
+
+.image {
+  width: 20%;
+}
+
+.description {
+  font-size: small;
+  overflow-wrap: break-word;
+  width: 50%;
+  margin: auto;
+  color: var(--clr-description-words);
+}
+
+.category {
+  color: var(--clr-category-words);
+}
+
+.switch {
+  width: 5%;
+}
+
+.sections{
+  border-radius: 15px;
+  margin-bottom: 3px;
+  background-color: var(--clr-body-background);
+  color: var(--clr-price);
+}

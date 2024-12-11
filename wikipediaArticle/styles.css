@@ -1,0 +1,12 @@
+body {
+    background-color: rgba(176, 72, 176, 0.432);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <!-- displays site properly based on user's device -->
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <link rel="stylesheet" href="./the-coin-challenge-styles.css">
+                        <title>Project: Text Adventure</title>
+                        <style>
+                            .attribution { font-size: 11px; text-align: center;}
+                            .attribution {color: gold;}
+                            .attribution a { color: rgb(195, 178, 195); text-decoration: none;}
+                        </style>
+            </head>
+        <body id="background">
+            <h1>CASH REGISTER</h1>
+                <main class="contain">
+                    <table border="15">
+                        <tbody>
+                            <tr>
+                                <td colspan="4" id="results"></td>
+                            </tr>
+                            <tr>
+                                <td class="calc"><a href="#" onclick="return addDigit(1)">1</a></td>
+                                <td class="calc"><a href="#" onclick="return addDigit(2)">2</a></td>
+                                <td class="calc"><a href="#" onclick="return addDigit(3)">3</a></td>
+                                <td class="calc"><a href="#" onclick="return addDigit('+')">+</a></td>
+                            </tr>
+                            <tr>
+                                <td class="calc"><a href="#" onclick="return addDigit(4)">4</a></td>
+                                <td class="calc"><a href="#" onclick="return addDigit(5)">5</a></td>
+                                <td class="calc"><a href="#" onclick="return addDigit(6)">6</a></td>
+                                <td class="calc"><a href="#" onclick="return addDigit('-')">-</a></td>
+                            </tr>
+                            <tr>
+                                <td class="calc"><a href="#" onclick="return addDigit(7)">7</a></td>
+                                <td class="calc"><a href="#" onclick="return addDigit(8)">8</a></td>
+                                <td class="calc"><a href="#" onclick="return addDigit(9)">9</a></td>
+                                <td class="calc"><a href="#" onclick="return addDigit('*')">x</a></td>
+                            </tr>
+                            <tr>
+                                <td class="calc"><a href="#" onclick="return reset()">Clear</a></td>
+                                <td class="calc"><a href="#" onclick="return addDigit(0)">0</a></td>
+                                <td class="calc"><a href="#" onclick="return changeCoins()">=</a></td>
+                                <td class="calc"><a href="#" onclick="return addDigit('/')">/</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </main>
+                <div class="attribution">
+                    Coded in Visual Studio Code by yours truly:<a href="#">
+                        Developer W. Roberts</a>
+                </div>
+                    <script src="./the-coin-challenge.js"></script>
+        </body>
+</html>

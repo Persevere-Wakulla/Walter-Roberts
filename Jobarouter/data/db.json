@@ -1,0 +1,65 @@
+{
+    "careers": [
+        {
+            "id": 1,
+            "title": "Senior React Developer",
+            "Salary": "50000",
+            "location": "London, Uk",
+            "things": [{"stuff": "more"}]
+        },
+        {
+            "id": 2,
+            "title": "Plumber",
+            "Salary": "40000",
+            "location": "Bowser's Castle"
+        },
+        {
+            "id": 3,
+            "title": "Gym Leader",
+            "Salary": "75000",
+            "location": "Kanto Region"
+        },
+        {
+            "id": 4,
+            "title": "Vue Developer",
+            "Salary": "60000",
+            "location": "Gretna, Florida"
+        },
+        {
+            "id": 5,
+            "title": "Barber",
+            "Salary": "80000",
+            "location": "Columbus, Ga"
+        },
+        {
+            "id": 6,
+            "title": "Software Engineer",
+            "Salary": "87000",
+            "location": "Austin, Texas"
+        },
+        {
+            "id": 7,
+            "title": "General Contractor",
+            "Salary": "200000",
+            "location": "Atlanta, Ga"
+        },
+        {
+            "id": 8,
+            "title": "Senior React Developer",
+            "Salary": "50000",
+            "location": "London, Uk"
+        },
+        {
+            "id": 9,
+            "title": "Data Analysis",
+            "Salary": "60000",
+            "location": "Tallahassee, Fla"
+        },
+        {
+            "id": 10,
+            "title": "Carpenter",
+            "Salary": "85000",
+            "location": "Orlando, Fla"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+                <!-- <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png"> -->
+                <link rel="stylesheet" href="./movies.css">
+                <title>Frontend Mentor | Movie Generator App</title>
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+                    <style>
+                        .attribution {
+                            font-size: 11px;
+                            text-align: center;
+                        }
+                        .attribution {
+                            color: gold;
+                        }
+                        .attribution a {
+                            color: rgb(195, 178, 195);
+                            text-decoration: none;
+                        }
+                    </style>
+        <body>
+            <div class="titleBar">
+                <h2 class="movTit">Titles</h2>
+                <div id="titles">
+                    <!-- This is where movie title anchors go -->
+                </div>
+            </div>
+            <div class="right">
+                <div class="headCont">
+                    <h1 class="heading">MOVIE INFO CITY</h1>
+                </div>
+                <div class="movie">
+                    <h1 id="title"></h1>
+                    <h3 id="genre"></h3>
+                    <div class="actorContainer" id="headingActors">
+                        <h2>Some Of Your Favorite Actors:
+                            <div id="actorList">
+                               <!-- This is where the actors list anchors go -->
+                            </div>
+                        </h2>
+                    </div>
+                    <h5 id="directors">Director(s): 
+                        <div id="director">
+                            <!-- this is where the directors go -->
+                        </div>
+                    </h5>
+                    <p id="year"></p>
+                    <p id="runTime"></p>
+                    <p id="plot"></p>
+                </div>
+                <div id="buttonList">
+                    <button class="buttons">1940-1949</button>
+                    <button class="buttons">1950-1959</button>
+                    <button class="buttons">1960-1969</button>
+                    <button class="buttons">1970-1979</button>
+                    <button class="buttons">1980-1989</button>
+                    <button class="buttons">1990-1999</button>
+                    <button class="buttons">2000-2009</button>
+                    <button class="buttons">2010-2019</button>
+                </div>
+            </div>
+            <div class="attribution">
+                Coded in Visual Studio Code by yours truly:<a href="#">Developer W. Roberts</a>.
+            </div>
+            <script src="./movies.js"></script>
+        </body>
+</html>

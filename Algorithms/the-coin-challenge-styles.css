@@ -1,0 +1,79 @@
+:root {
+    /* This is the Primary colors of the page */
+    /* This is the Dark Mode Colors */
+    
+    /* On Hover */
+    
+    /* the font color */
+    --h1-font: hsl(180, 97%, 52%);
+}
+
+
+*,
+* ::before,
+* ::after {
+box-sizing: border-box;
+}
+
+* {
+margin: 0;
+padding:0;
+}
+
+html,
+body {
+height: 100%;
+}
+
+body {
+line-height: 1.7;
+-webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+display: block;
+max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3 {
+line-height: 1;
+}
+
+#root,
+#__next {
+isolation: isolate;
+}
+
+.calc {
+    background-color: blueviolet;
+}
+
+td {
+    border-radius: 35px;
+    text-align: center;
+    width: 5rem;
+    height: 4rem;
+}
